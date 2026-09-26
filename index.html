@@ -1,112 +1,56 @@
-<html>
-	<head>
-		<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script>
-		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-		<style>
-			h1 {
-				text-align: center;
-			}
-
-			.container {
-				margin: 0 auto;
-				padding: 60px 20%;
-			}
-
-			figure {
-				text-align: center;
-			}
-
-			img {
-				display: inline-block;
-			}
-
-			body {
-				font-family: 'Inter', sans-serif;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="container">
-		<h1>CS184/284A Fall 2026 Homework 1 Write-Up</h1>
-		<div style="text-align: center;">Names: </div>
-
-		<br>
-
-		Link to webpage: (TODO) <a href="https://cs184.eecs.berkeley.edu/fa26">cs184.eecs.berkeley.edu/fa26</a>
-		
-		<br>
-
-		Link to GitHub repository: (TODO) <a href="https://cs184.eecs.berkeley.edu/fa26">cs184.eecs.berkeley.edu/fa26</a>
-
-		<figure>
-			<img src="assets/lion.jpg" alt="Lion" style="width:50%"/>
-			<figcaption>You can add images with captions!</figcaption>
-		</figure>
-
-		<!--
-		We've already added one heading per task, to make your write-up as navigable when grading. Please fit your write-up within these sections!
-		-->
-
-		<h2>Overview</h2>
-		Give a high-level overview of what you implemented in this homework. Think about what you've built as a whole. Share your thoughts on what interesting things you've learned from completing the homework.
-
-		<h2>Task 1: Drawing Single-Color Triangles</h2>
-		Testing ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-		<p>Here is an example 2x2 gridlike structure using an HTML table. Each <b>tr</b> is a row and each <b>td</b> is a column in that row. You might find this useful for framing and showing your result images in an organized fashion.</p>
-		<div style="display: flex; flex-direction: column; align-items: center;">
-			<table style="width: 100%; text-align: center; border-collapse: collapse;">
-			  <tr>
-				<td style="text-align: center;">
-				  <img src="assets/lion.jpg" width="400px"/>
-				  <figcaption>Caption goes here.</figcaption>
-				</td>
-				<td style="text-align: center;">
-				  <img src="assets/lion.jpg" width="400px"/>
-				  <figcaption>Caption goes here.</figcaption>
-				</td>
-			  </tr>
-			  <tr>
-				<td style="text-align: center;">
-				  <img src="assets/lion.jpg" width="400px"/>
-				  <figcaption>Caption goes here.</figcaption>
-				</td>
-				<td style="text-align: center;">
-				  <img src="assets/lion.jpg" width="400px"/>
-				  <figcaption>Caption goes here.</figcaption>
-				</td>
-			  </tr>
-			</table>
-		</div>
-		
-		<h2>Task 2: Antialiasing by Supersampling</h2>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-		<h2>Task 3: Transforms</h2>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-		<h2>Task 4: Barycentric coordinates</h2>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-		<h2>Task 5: "Pixel sampling" for texture mapping</h2>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-		<h2>Task 6: "Level Sampling" with mipmaps for texture mapping</h2>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-		<h2>(Optional) Task 7: Extra Credit - Draw Something Creative!</h2>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-		<h2>Additional Notes (please remove)</h2>
-		<ul>
-			<li>You can also add code if you'd like as so: <code>code code code</code></li>
-			<li>If you'd like to add math equations, 
-				<ul>
-					<li>You can write inline equations like so: \( a^2 + b^2 = c^2 \)</li>
-					<li>You can write display equations like so: \[ a^2 + b^2 = c^2 \]</li>
-				</ul>
-			</li>
-		</ul>
-		</div>
-	</body>
-</html>
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>CS184/284A Fall 2026 Homework 1 Write-Up</title><style>*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:#202733;background:#fff;font-family:Inter,Arial,sans-serif;font-size:16px;line-height:1.7}.container{max-width:1080px;margin:0 auto;padding:56px 28px 80px}h1{text-align:center;font-size:2rem;line-height:1.25}header{margin-bottom:40px}h2{font-size:1.5rem;line-height:1.35;margin:0 0 24px}h3{font-size:1.1rem;margin-top:28px}section{border-top:1px solid #dce1e7;padding-top:32px;margin-top:44px}p{margin:0 0 18px}code{font-family:ui-monospace,monospace;font-size:.9em;background:#f1f3f5;padding:2px 4px;border-radius:3px}figure{margin:24px auto;max-width:800px;break-inside:avoid}img{display:block;width:100%;height:auto;border:1px solid #e2e5e9}figcaption{font-size:.9rem;text-align:center;color:#475467;margin-top:10px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:start}.grid figure{margin:12px 0}.three{grid-template-columns:repeat(3,minmax(0,1fr))}.missing{border:1px dashed #a9b1bc;padding:24px;min-height:170px;text-align:center}.note{background:#fff8e9;border-left:3px solid #c58b21;padding:16px}.meta{text-align:center;color:#475467}.equation{text-align:center;padding:18px;background:#f5f7fa}nav{display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin-top:24px}a{color:#175ab0}nav a{text-decoration:none} @media(max-width:650px){.container{padding:28px 18px}h1{font-size:1.65rem}.grid,.three{grid-template-columns:1fr}h2{font-size:1.3rem}}@media print{.container{max-width:none;padding:0}body{font-size:10pt}nav{display:none}section{margin-top:24px;padding-top:20px}h2,h3{break-after:avoid}a{color:inherit;text-decoration:none}figure{max-width:520px}.grid{gap:14px}img{max-height:340px;object-fit:contain} .note{print-color-adjust:exact}}</style></head><body><main class="container"><header><h1>CS184/284A Fall 2026<br>Homework 1 Write-Up</h1><p class="meta">Names: <strong>[Add your name(s)]</strong></p><p class="meta">Link to webpage: [Add your published webpage URL]<br>Link to GitHub repository: [Add your repository URL]</p><nav aria-label="Write-up sections"><a href="#task-1">Task 1</a><a href="#task-2">Task 2</a><a href="#task-3">Task 3</a><a href="#task-4">Task 4</a><a href="#task-5">Task 5</a><a href="#task-6">Task 6</a><a href="#task-7">Task 7</a></nav></header><section id="overview"><h2>Overview</h2><p>In this homework, I built a triangle rasterizer and added supersampling, transforms, barycentric color interpolation, texture mapping, and mipmap level sampling. Starting with solid-color triangles helped me understand how sample positions determine which pixels get filled. Adding more samples and different texture filters showed me how much those choices affect the final image.</p><p>I also learned how hierarchical transforms make it easier to move connected shapes, and how barycentric coordinates can be used for both smooth color gradients and texture coordinates.</p></section><section id="task-1"><h2>Task 1: Drawing Single-Color Triangles</h2>
+<p>To rasterize a triangle, I first find its bounding box using the minimum and maximum x and y values of its three vertices. I then loop through every pixel inside this bounding box and sample at the center of each pixel, <code>(x + 0.5, y + 0.5)</code>.</p>
+<p>For each sample point, I use the three edges of the triangle to check whether the point is inside. I calculate an edge function for each edge, which tells me which side of the edge the sample point is on. If all three results are nonnegative or all three are nonpositive, the point is inside the triangle or on its boundary, and I fill that pixel with the triangle's color. Checking both signs makes this work for vertices given in either clockwise or counterclockwise order.</p>
+<p>My algorithm only checks pixels inside the triangle's bounding box, so I don't waste time checking pixels that are definitely too far away to be part of the triangle. If the bounding box has width W and height H, the algorithm checks at most W × H pixels. Each pixel needs only three edge tests, which take constant time, so the algorithm runs in <code>O(W × H)</code> time.</p>
+<figure><a href="assets/task1-triangles.png"><img src="assets/task1-triangles.png" alt="basic/test4.svg with the pixel inspector centered around a triangle edge." width="1600" height="1200" loading="lazy"></a><figcaption>basic/test4.svg with the pixel inspector centered around a triangle edge.</figcaption></figure>
+<p>The zoomed-in view shows how pixels are either filled or left empty depending on whether the center of the pixel is inside the triangle.</p>
+</section>
+<section id="task-2"><h2>Task 2: Antialiasing by Supersampling</h2>
+<p>For supersampling, I changed the sample buffer so it stores multiple samples for each pixel instead of only one. Its size is <code>width × height × sample_rate</code>. A sample rate of 4 gives each pixel a 2 × 2 grid of samples, while a sample rate of 16 gives it a 4 × 4 grid.</p>
+<p>When rasterizing a triangle, I still loop through its bounding box. Instead of only testing the center of each pixel, I test the center of every supersample within it. I use the same three edge tests from Task 1. If a sample is inside, I store the triangle's color at that location in the sample buffer.</p>
+<p>I also changed <code>fill_pixel()</code> so points and lines fill all the samples belonging to a pixel. I updated <code>set_sample_rate()</code> and <code>set_framebuffer_target()</code> so the buffer has enough space for all the supersamples. Finally, I changed <code>resolve_to_framebuffer()</code> to average each pixel's samples and use that average as the final pixel color.</p>
+<p>Supersampling helps with antialiasing because it gives a better estimate of how much of a pixel a triangle covers. With one sample, a pixel is either completely filled or completely empty. With multiple samples, some can be inside while others are outside. Averaging them gives pixels near an edge intermediate colors, making diagonal edges and thin triangles look smoother.</p>
+<div class="grid three"><figure><a href="assets/task2-1-spp.png"><img src="assets/task2-1-spp.png" alt="1 sample per pixel" width="1600" height="1200" loading="lazy"></a><figcaption>1 sample per pixel</figcaption></figure><figure><a href="assets/task2-4-spp.png"><img src="assets/task2-4-spp.png" alt="4 samples per pixel" width="1600" height="1200" loading="lazy"></a><figcaption>4 samples per pixel</figcaption></figure><figure><a href="assets/task2-16-spp.png"><img src="assets/task2-16-spp.png" alt="16 samples per pixel" width="1600" height="1200" loading="lazy"></a><figcaption>16 samples per pixel</figcaption></figure></div>
+<p>At sample rate 1, skinny triangles and diagonal edges look jagged. Parts of very thin triangles can disappear because the triangle does not cover the center of a pixel.</p>
+<p>At sample rate 4, testing four locations makes it more likely that a thin triangle or edge covers at least some samples. Partially covered pixels get an averaged color, making the edges smoother.</p>
+<p>At sample rate 16, pixel coverage is estimated more accurately. The pixel inspector shows more partially colored pixels around the edges, and the skinny triangle is represented more smoothly.</p>
+</section>
+<section id="task-3"><h2>Task 3: Transforms</h2>
+<p>I changed Cubeman so that he looks like he's waving with his right arm. I moved the arm's coordinate system to the shoulder and then rotated the whole arm from there, so both arm segments move together. This helped me see how hierarchical transforms make it easier to move connected parts without changing every shape individually.</p>
+<figure><a href="assets/task3-cubeman.png"><img src="assets/task3-cubeman.png" alt="Cubeman with a raised, waving arm." width="1600" height="1200" loading="lazy"></a><figcaption>Cubeman with a raised, waving arm.</figcaption></figure>
+</section>
+<section id="task-4"><h2>Task 4: Barycentric coordinates</h2>
+<p>Barycentric coordinates describe a point inside a triangle using three weights, α, β, and γ, that add up to 1. Each weight represents how much influence one vertex has on that point. If the vertices are red, green, and blue, the color at a point inside the triangle is calculated as:</p>
+<p class="equation">C = αC<sub>0</sub> + βC<sub>1</sub> + γC<sub>2</sub>, &nbsp; α + β + γ = 1</p>
+<p>At a vertex, its barycentric coordinate is 1 and the other two are 0, so the color is exactly that vertex's color. As a point moves toward the center, multiple vertices contribute to its color, causing the colors to blend smoothly across the triangle.</p>
+<figure><a href="assets/task4-barycentric.png"><img src="assets/task4-barycentric.png" alt="A triangle with interpolated red, green, and blue vertex colors." width="1600" height="1200" loading="lazy"></a><figcaption>A triangle with interpolated red, green, and blue vertex colors.</figcaption></figure>
+<p>Near each vertex, the color is mostly determined by that vertex. Between two vertices, their colors blend together, and near the center all three vertex colors contribute.</p>
+<figure><a href="assets/task4-color-wheel.png"><img src="assets/task4-color-wheel.png" alt="svg/basic/test7.svg rendered at 1 sample per pixel." width="1600" height="1200" loading="lazy"></a><figcaption>svg/basic/test7.svg rendered at 1 sample per pixel.</figcaption></figure>
+<p>The color wheel is made from triangles whose vertex colors are interpolated using barycentric coordinates. Because the weights change continuously as the sample position moves across each triangle, the colors also change continuously, producing the smooth gradient shown here.</p>
+</section>
+<section id="task-5"><h2>Task 5: "Pixel sampling" for texture mapping</h2>
+<p>Pixel sampling is basically how I figure out what color from the texture should show up at each point on the triangle. I used barycentric coordinates to interpolate the <code>(u, v)</code> texture coordinates, then used those coordinates to sample the texture.</p>
+<p>For nearest sampling, I just pick the closest texel to the sampling location. It's simple and fast, but it can look pretty blocky. For bilinear sampling, I blend the four surrounding texels based on the sample's fractional position between them. This makes the texture look smoother.</p>
+<div class="grid">
+<div><figure><a href="assets/task5-nearest-1.png"><img src="assets/task5-nearest-1.png" alt="Nearest, 1 sample per pixel" width="1600" height="1200" loading="lazy"></a><figcaption>Nearest, 1 sample per pixel</figcaption></figure><p>This one looks the roughest. The thin grid lines and some coastlines look more jagged, with more abrupt changes in the texture.</p></div>
+<div><figure><a href="assets/task5-nearest-16.png"><img src="assets/task5-nearest-16.png" alt="Nearest, 16 samples per pixel" width="1600" height="1200" loading="lazy"></a><figcaption>Nearest, 16 samples per pixel</figcaption></figure><p>Increasing to 16 samples per pixel makes the edges cleaner and reduces some jaggedness. The texture still has the sharper look of nearest sampling.</p></div>
+<div><figure><a href="assets/task5-bilinear-1.png"><img src="assets/task5-bilinear-1.png" alt="Bilinear, 1 sample per pixel" width="1600" height="1200" loading="lazy"></a><figcaption>Bilinear, 1 sample per pixel</figcaption></figure><p>This already looks smoother than nearest sampling because nearby texture colors are blended instead of choosing just one texel.</p></div>
+<div><figure><a href="assets/task5-bilinear-16.png"><img src="assets/task5-bilinear-16.png" alt="Bilinear, 16 samples per pixel" width="1600" height="1200" loading="lazy"></a><figcaption>Bilinear, 16 samples per pixel</figcaption></figure><p>This looked the smoothest overall. Bilinear filtering smooths the texture, and the higher sample rate also helps clean up the edges.</p></div>
+</div><p>The difference between nearest and bilinear is easiest to notice around thin latitude/longitude lines, coastlines, and curved edges. Nearest sampling can jump suddenly between texels, while bilinear blends them together. Increasing the number of samples per pixel helps reduce aliasing, including jagged shape edges, while bilinear sampling smooths transitions within the texture.</p>
+</section>
+<section id="task-6"><h2>Task 6: "Level Sampling" with mipmaps for texture mapping</h2>
+<p>Level sampling determines which mipmap level of a texture to use when sampling a pixel. A mipmap stores multiple versions of the same texture at different resolutions. Level 0 is the original full-resolution texture, and each following level is a lower-resolution version.</p>
+<p>To choose a level, I calculate texture coordinates at the current sample point <code>(x, y)</code> and at the neighboring screen positions <code>(x + 1, y)</code> and <code>(x, y + 1)</code>. I use barycentric coordinates to interpolate UV coordinates at all three positions. The differences tell me how quickly texture coordinates change as I move one pixel on the screen.</p>
+<p>In <code>get_level()</code>, I convert these changes into texel coordinates using the original texture's width and height. I take the larger length of the changes in the two screen directions and use <code>log2</code> to determine the appropriate mipmap level.</p>
+<p>For <code>L_ZERO</code>, I always sample level 0. For <code>L_NEAREST</code>, I round the calculated level and sample the closest mipmap level. For <code>L_LINEAR</code>, I sample the two levels surrounding the calculated level and interpolate between their colors.</p>
+<h3>Quality, speed, and memory</h3><p>Pixel sampling determines how the texture is sampled within a mipmap level. <code>P_NEAREST</code> selects the nearest texel, so it needs fewer texture lookups but can produce jagged or blocky results. <code>P_LINEAR</code> interpolates four nearby texels, requiring more computation but producing smoother results.</p>
+<p>Level sampling determines which texture resolution is used. <code>L_ZERO</code> requires less mipmap sampling work, but can produce significant aliasing when a texture is displayed much smaller than its original size. <code>L_NEAREST</code> selects the level closest to the ideal one, reducing aliasing during minification. <code>L_LINEAR</code> blends two neighboring levels, giving smoother transitions at the cost of additional sampling. Mipmapping also requires extra memory to store the lower-resolution copies.</p>
+<p>Supersampling increases the number of samples within each screen pixel. It reduces aliasing on triangle edges and other details, but increases computation and sample-buffer size. At a sample rate of 16, sixteen samples must be stored and processed for each pixel instead of one.</p>
+<p>Overall, these techniques address somewhat different sources of aliasing. Higher-quality settings generally produce smoother results but require more computation, and supersampling and mipmapping also require additional memory.</p>
+<h3>Sampling comparison</h3><div class="grid"><figure><a href="assets/task6-zero-nearest.png"><img src="assets/task6-zero-nearest.png" alt="L_ZERO + P_NEAREST" width="1600" height="1200" loading="lazy"></a><figcaption>L_ZERO + P_NEAREST</figcaption></figure><figure><a href="assets/task6-zero-linear.png"><img src="assets/task6-zero-linear.png" alt="L_ZERO + P_LINEAR" width="1600" height="1200" loading="lazy"></a><figcaption>L_ZERO + P_LINEAR</figcaption></figure><figure><a href="assets/task6-nearest-nearest.png"><img src="assets/task6-nearest-nearest.png" alt="L_NEAREST + P_NEAREST" width="1600" height="1200" loading="lazy"></a><figcaption>L_NEAREST + P_NEAREST</figcaption></figure><figure><a href="assets/task6-nearest-linear.png"><img src="assets/task6-nearest-linear.png" alt="L_NEAREST + P_LINEAR" width="1600" height="1200" loading="lazy"></a><figcaption>L_NEAREST + P_LINEAR</figcaption></figure></div>
+<p>With L_ZERO and P_NEAREST, the texture shows the most visible aliasing because it samples the full-resolution texture using only the nearest texel. Changing to P_LINEAR smooths the texture by interpolating between neighboring texels, although aliasing from texture minification can still remain. With L_NEAREST, an appropriate mipmap level is selected based on how quickly the texture coordinates change across the screen. This reduces aliasing in areas where the texture is minified. Combining L_NEAREST with P_LINEAR uses mipmapping for minification and bilinear interpolation within the selected mipmap level, producing a smoother result.</p>
+</section>
+<section id="task-7"><h2>(Optional) Task 7: Extra Credit - Draw Something Creative!</h2>
+<p>No extra-credit work was included in the source write-up.</p>
+</section></main></body></html>
